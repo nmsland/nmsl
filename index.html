@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333333">
+    <title>NMSL Converter</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="reset-form.css" rel="stylesheet">
+    <link href="base.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2>NMSL Converter</h2>
+    <p class="intro">Converts any text to NMSL</p>
+    <small class="label" id="label-n">Input text:</small><textarea type="text" id="1"></textarea>
+    <div class="actions">
+        <div class="button clickable" id="btn-generate" onclick="generate()">NMSL</div>
+        <span class="invisible">NMSL</span>
+        <div class="button clickable" id="btn-generate2" onclick="degenerate()">De-NMSL</div>
+    </div>
+    <div id="text"></div>
+    <p class="about"><a class="clickable" href="https://github.com/nmsland/nmsl">View on GitHub</a></p>
+    <script src="main.js"></script>
+</body>
+
+</html>
